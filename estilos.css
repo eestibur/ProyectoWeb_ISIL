@@ -1,0 +1,153 @@
+@font-face{
+    src: url(Fuentes/BebasNeue-Regular.ttf);
+    font-family: Bebasneue;
+}
+
+@font-face{
+    src: url(Fuentes/PlusJakartaSans-VariableFont_wght.ttf);
+    font-family: Plusjak;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 85%;
+    margin: auto;
+}
+
+header{
+    padding: 2em;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    font-weight: bold;
+    font-family: Plusjak;
+    border-radius: 0px;
+}
+
+#superior{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+/*nav ul li a{
+    padding: 1em;
+    font-weight: bold;
+    font-family: Plusjak;
+    border-radius: 0px;
+}*/
+
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+article{
+    padding-top: 2em;
+    padding-bottom: 10em;
+}
+
+p{
+    text-align: justify;
+}
+
+footer{
+    padding: 2em;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+footer p{
+    color: white;
+    font-weight: bolder;
+    font-family: Bebasneue;
+    font-size: 20px;
+    padding: 10px 50px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover{
+    color: gray;
+}
+
+#flayer{
+    background-image: url(Imagenes/mar.jpg);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 200px;
+    font-family: Bebasneue;
+    font-size: 50px;
+}
+
+#contenedor{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+
+.tarjeta{
+    margin: 30px;
+}
+
+#contenedor img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+#contenedor a{
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin: 10px 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Bebasneue;
+    font-size: 25px;
+}
+
+#contenedor a:hover{
+    background-color: gray;
+}
+
+.tarjeta:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.tarjeta p{
+    font-family: Plusjak;
+    font-size: 12px;
+}
